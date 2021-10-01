@@ -50,7 +50,7 @@ endif
 # Available targets for ARM
 $(build_arm_targets): prefix = $(arm_prefix)
 $(build_arm_targets): target = $(arm_target)
-$(build_arm_targets): extra_configure_args = --with-arch=armv4 --with-mode=arm --disable-multilib
+$(build_arm_targets): extra_configure_args = --with-arch=armv4 --with-mode=arm
 $(build_arm_targets): gcc_ver = $(arm_gcc_ver)
 $(build_arm_targets): binutils_ver = $(arm_binutils_ver)
 
